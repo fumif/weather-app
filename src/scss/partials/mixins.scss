@@ -1,0 +1,8 @@
+@mixin border($position, $width, $style, $colour) {
+   boder-#{$position} : $width, $style, $colour!important;
+}
+
+
+@mixin letter-spacing($spacing) {
+   letter-spacing: ($spacing / 1000) * 1em;
+ }

@@ -1,0 +1,32 @@
+// weather
+.weather {
+    &-condition {
+      font-size: 1.5rem;
+      text-transform: capitalize;
+    }
+    &-temp {
+      &-current span {
+        line-height: .75;
+        font-size: calc(120px + (150 - 120) * ((100vw - 320px) / (1440 - 320)));
+        @include letter-spacing(-100);
+      }
+    }
+
+    &-details {
+        .wi {
+            font-size: 1.5em;
+        }
+
+        .fas {
+            font-size: 1.25em;
+        }
+        span {
+            margin-left: 10px;
+        }
+    }
+    &-weekly {
+      .wi {
+        font-size: 2.5rem;
+      }
+    }
+  }

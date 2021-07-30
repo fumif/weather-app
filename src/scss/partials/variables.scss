@@ -1,0 +1,29 @@
+// colour
+$morning-sun: #eac1b6;
+$noon-sun: #38b9e0;
+$eve-sun: #f1ba60;
+$sunset: #cd73cb;
+$night-sun: #143c7a;
+
+$morning-rain: #9bb8b7;
+$noon-rain: #6198a9;
+$eve-rain: #747f8c;
+// $night-rain: #5a6a82;
+$night-rain: #31425c;
+
+$text: #fff;
+$text-inverse: #333;
+$list-hover: #eee;
+
+:export {
+	morningSun: $morning-sun;
+	noonSun: $noon-sun;
+	eveSun: $eve-sun;
+	sunset: $sunset;
+	night: $night-sun;
+
+	morningRain: $morning-rain;
+	noonRain: $noon-rain;
+	eveRain: $eve-rain;
+	nightRain: $night-rain;
+}
